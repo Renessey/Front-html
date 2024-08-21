@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1500px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(107, 204, 171);
+}
+.menu{
+    margin-top: 50px;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 1px rgb(10, 24, 24);
+}
+.menu li {
+    list-style: none;
+    font-size: 25px;
+    margin-top: 3%;
+    margin-left: 5%;
+    position: relative;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+}
+.header {
+    background-color: rgb(10, 24, 24);
+    min-height: 50px;
+}
+.content {
+    background-color: white;
+    min-height: 900px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgba(197, 56, 240, 0.377);
+    min-height: 80px;
+}
+.tabela {
+    border: none;
+    width: 100%;
+}
+table tr:nth-child(even) {
+    background-color: rgb(224, 213, 235);
+}
+#formulario {
+    align-items: center;
+    text-align: center;
+    width: 12vw;
+    display: grid;
+    margin-left: 70%;
+    margin-top: -40%;
+    text-align: center;
+    background-color: rgba(0, 17, 255, 0.273);
+    padding: 25px;
+    border-radius: 5px;
+    
+}
+
